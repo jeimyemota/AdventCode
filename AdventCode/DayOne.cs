@@ -7,8 +7,8 @@ namespace AdventCode
     {
         static void Main()
         {
-            //TODO Read input file. Reads each line and adds them to array seperately 
-            String[] lines = File.ReadAllLines(@"C:\Users\jmota\Desktop\C#practice\AdventCode\AdventCode\InputFile\input.txt");
+            //TODO Read input file within InputFile folder. Reads each line and adds them to array seperately 
+            String[] lines = File.ReadAllLines(@"InputFile/DayOne.txt");
 
             int calories = 0;
             List<int>elf = new List<int>();
