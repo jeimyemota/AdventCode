@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace AdventCode
 { 
-    internal class Program
+    internal class DayOne
     {
         static void Main()
         {
